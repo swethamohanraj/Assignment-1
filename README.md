@@ -192,6 +192,25 @@ public class Main
 ### OUTPUT
 ![image](https://user-images.githubusercontent.com/94228215/224473589-ae0ab7a6-a828-4c92-b86c-37f91c83343c.png)
 
+### 8. Write a Java program to print multiplication table of given number
+```
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner num = new Scanner(System.in);
+        int tab = num.nextInt();
+        for(int i=1;i<=10;i++)
+        {
+            System.out.println(tab+" * "+i+" = "+(tab*i));
+        }
+    }
+}
+```
+### OUTPUT
+![image](https://user-images.githubusercontent.com/94228215/224473669-9ca25aba-5148-46a6-b9b7-2d382bab9299.png)
+
 
 
 
